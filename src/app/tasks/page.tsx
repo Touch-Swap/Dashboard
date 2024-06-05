@@ -28,6 +28,18 @@ export default function TasksList() {
         minWidth: 200,
       },
       {
+        field: "link",
+        flex: 1,
+        headerName: "Link",
+        minWidth: 200,
+      },
+      {
+        field: "reward",
+        flex: 1,
+        headerName: "Reward",
+        minWidth: 80,
+      },
+      {
         field: "actions",
         headerName: "Actions",
         sortable: false,

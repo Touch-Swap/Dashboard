@@ -32,6 +32,32 @@ export default function CategoryCreate() {
           label={"Title"}
           name="title"
         />
+          <TextField
+          {...register("link", {
+            required: "This field is required",
+          })}
+          error={!!(errors as any)?.link}
+          helperText={(errors as any)?.link?.message}
+          margin="normal"
+          fullWidth
+          InputLabelProps={{ shrink: true }}
+          type="text"
+          label={"Link"}
+          name="link"
+        />
+         <TextField
+          {...register("reward", {
+            required: "This field is required",
+          })}
+          error={!!(errors as any)?.reward}
+          helperText={(errors as any)?.reward?.message}
+          margin="normal"
+          fullWidth
+          InputLabelProps={{ shrink: true }}
+          type="number"
+          label={"Reward"}
+          name="reward"
+        />
       </Box>
     </Create>
   );

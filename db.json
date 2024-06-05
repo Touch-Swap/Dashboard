@@ -63,52 +63,53 @@
     {
       "title": "ADAM TEST CATEGORY",
       "id": 16
+    },
+    {
+      "id": "986b",
+      "title": "Yo Mother Fuckers"
     }
   ],
   "tasks": [
     {
       "id": 1,
-      "title": "Task 1"
+      "title": "Follow us on Facebook",
+      "link": "https://www.facebook.com",
+      "reward": 1200
     },
     {
       "id": 2,
-      "title": "Task 2"
+      "title": "Follow us on Twitter",
+      "link": "https://www.twitter.com",
+      "reward": 1200
     },
     {
       "id": 3,
-      "title": "Task 3"
+      "title": "Follow us on Instagram",
+      "link": "https://www.instagram.com",
+      "reward": 1200
     },
     {
       "id": 4,
-      "title": "Task 4"
+      "title": "Follow us on LinkedIn",
+      "link": "https://www.linkedin.com"
     },
     {
       "id": 5,
-      "title": "Task 5"
+      "title": "Follow us on YouTube",
+      "link": "https://www.youtube.com",
+      "reward": 1200
     },
     {
-      "id": 6,
-      "title": "Task 6"
+      "id": "d07e",
+      "title": "Like Simon Page",
+      "link": "https://ceeriil.com",
+      "reward": 1200
     },
     {
-      "id": 7,
-      "title": "Task 7"
-    },
-    {
-      "id": 8,
-      "title": "Task 8"
-    },
-    {
-      "id": 9,
-      "title": "Task 9"
-    },
-    {
-      "id": 10,
-      "title": "Task 10"
-    },
-    {
-      "id": "f928",
-      "title": "Helo"
+      "id": "755b",
+      "title": "follow Daniel",
+      "link": "htttps:./fftr",
+      "reward": "200"
     }
   ]
 }
