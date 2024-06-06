@@ -1,0 +1,109 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Laptops & Desktops test"
+    },
+    {
+      "id": 2,
+      "title": "Smartphones & Tablets"
+    },
+    {
+      "id": 3,
+      "title": "Audio & Video"
+    },
+    {
+      "id": 4,
+      "title": "Gaming"
+    },
+    {
+      "id": 5,
+      "title": "Home & Kitchen"
+    },
+    {
+      "id": 6,
+      "title": "Office & Supplies"
+    },
+    {
+      "id": 7,
+      "title": "Books & Magazines"
+    },
+    {
+      "id": 8,
+      "title": "Music & Instruments"
+    },
+    {
+      "id": 9,
+      "title": "Health & Fitness"
+    },
+    {
+      "id": 10,
+      "title": "Clothing & Accessories"
+    },
+    {
+      "id": 11,
+      "title": "Travel & Outdoor"
+    },
+    {
+      "id": 12,
+      "title": "Toys & Games"
+    },
+    {
+      "id": 13,
+      "title": "Beauty & Personal Care"
+    },
+    {
+      "id": 14,
+      "title": "Sports"
+    },
+    {
+      "id": 15,
+      "title": "Automotive & Industrial"
+    },
+    {
+      "title": "ADAM TEST CATEGORY",
+      "id": 16
+    },
+    {
+      "id": "986b",
+      "title": "Yo Mother Fuckers"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Follow us on Facebook",
+      "link": "https://www.facebook.com",
+      "reward": 1200
+    },
+    {
+      "id": 2,
+      "title": "Follow us on Twitter",
+      "link": "https://www.twitter.com",
+      "reward": 1200
+    },
+    {
+      "id": 3,
+      "title": "Follow us on Instagram",
+      "link": "https://www.instagram.com",
+      "reward": 1200
+    },
+    {
+      "id": 4,
+      "title": "Follow us on LinkedIn",
+      "link": "https://www.linkedin.com"
+    },
+    {
+      "id": 5,
+      "title": "Follow us on YouTube",
+      "link": "https://www.youtube.com",
+      "reward": 1200
+    },
+    {
+      "id": "5c76",
+      "title": "Like Youtube Page",
+      "link": "http://youtube.com",
+      "reward": "2000"
+    }
+  ]
+}
