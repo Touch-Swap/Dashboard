@@ -17,16 +17,21 @@ export default function CategoryShow() {
           {"ID"}
         </Typography>
         <TextField value={record?.id} />
+
         <Typography variant="body1" fontWeight="bold">
           {"Title"}
         </Typography>
-        <Typography variant="body1" fontWeight="bold">
-          {"description"}
-        </Typography>
-        <Typography variant="body1" fontWeight="bold">
-          {"reward"}
-        </Typography>
         <TextField value={record?.title} />
+
+        <Typography variant="body1" fontWeight="bold">
+          {"Link"}
+        </Typography>
+        <TextField value={record?.link} />
+        <Typography variant="body1" fontWeight="bold">
+          {"Reward"}
+        </Typography>
+        <TextField value={record?.reward} />
+
       </Stack>
     </Show>
   );

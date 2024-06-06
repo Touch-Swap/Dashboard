@@ -5,6 +5,11 @@ export interface CustomTheme {
   // status: {
   //   danger: string;
   // };
+  
+    typography: {
+      fontFamily: "'SF Mono', sans-serif",
+    },
+  
 }
 
 declare module "@refinedev/mui" {

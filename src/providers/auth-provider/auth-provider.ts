@@ -5,16 +5,16 @@ import Cookies from "js-cookie";
 
 const mockUsers = [
   {
-    name: "John Doe",
+    name: "Admin",
     email: "johndoe@mail.com",
     roles: ["admin"],
-    avatar: "https://i.pravatar.cc/150?img=1",
+    avatar: "https://www.shutterstock.com/image-vector/user-profile-icon-vector-avatar-600nw-2247726673.jpg",
   },
   {
-    name: "Jane Doe",
+    name: "Admin2",
     email: "janedoe@mail.com",
     roles: ["editor"],
-    avatar: "https://i.pravatar.cc/150?img=1",
+    avatar: "https://www.shutterstock.com/image-vector/user-profile-icon-vector-avatar-600nw-2247726673.jpg",
   },
 ];
 
