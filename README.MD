@@ -23,6 +23,12 @@ Refine's hooks and components simplifies the development process and eliminates 
     npm run dev
 ```
 
+### Running local API.
+
+```bash
+    npm start:json-server
+```
+
 ### Building for production.
 
 ```bash
