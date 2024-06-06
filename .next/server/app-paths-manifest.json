@@ -1,8 +1,0 @@
-{
-  "/icon.ico/route": "app/icon.ico/route.js",
-  "/tasks/page": "app/tasks/page.js",
-  "/overview/page": "app/overview/page.js",
-  "/tasks/edit/[id]/page": "app/tasks/edit/[id]/page.js",
-  "/tasks/show/[id]/page": "app/tasks/show/[id]/page.js",
-  "/tasks/create/page": "app/tasks/create/page.js"
-}
