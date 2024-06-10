@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "cross-env NODE_OPTIONS=--max_old_space_size=4096 refine dev",
-    "start:json-server": "json-server --watch db.json --port 4000",
+    "start:json-server": "json-server --watch db.json --port 4001",
     "build": "refine build",
     "start": "refine start",
     "lint": "next lint",
@@ -28,11 +28,13 @@
     "@refinedev/nextjs-router": "^6.0.0",
     "@refinedev/react-hook-form": "^4.8.14",
     "@refinedev/simple-rest": "^5.0.1",
+    "firebase-admin": "^12.1.1",
     "js-cookie": "^3.0.5",
     "json-server": "^1.0.0-beta.1",
     "next": "^14.1.0",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "typesaurus": "^10.7.0"
   },
   "devDependencies": {
     "@types/js-cookie": "^3.0.6",
