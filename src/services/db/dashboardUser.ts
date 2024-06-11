@@ -1,5 +1,4 @@
 import { db, toResult, Result, Schema } from "@/services/db";
-import argon2 from "argon2";
 import "@/services/firebase";
 
 export interface DashboardUser {
@@ -20,8 +19,7 @@ export async function createUser(
   avatar: string,
   password: string
 ): Promise<DashboardUserResult> {
-   const hash = await argon2.hash(password);
-   const user = await db.dashUser.add({ name , email, roles, avatar, password: hash });
+   const user = await db.dashUser.add({ name , email, roles, avatar, password });
    return toResult<DashboardUser>(await db.dashUser.get(user.id));
 }
 
@@ -34,8 +32,7 @@ export async function updateUser(
 ): Promise<DashboardUserResult> {
    const usersFound = await db.dashUser.query($ => $.field("email").eq(email));
    if (usersFound.length === 0) return toResult(null);
-   const hash = await argon2.hash(password);
-   usersFound[0].update({ name, email, roles, avatar, password: hash });
+   usersFound[0].update({ name, email, roles, avatar, password });
    return toResult<DashboardUser>(await db.dashUser.get(usersFound[0].ref.id));
 }
 
