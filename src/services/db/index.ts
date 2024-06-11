@@ -1,13 +1,13 @@
+import { DashboardUser } from "./dashboardUser";
 import { Task } from "./task";
-import { User } from "./user";
 import { Typesaurus, schema } from "typesaurus";
 
 // Generate the db object from given schem that you can use to access
 // Firestore, i.e.:
 //   await db.get(userId)
 export const db = schema($ => ({
-      users: $.collection<User>(),
-      tasks: $.collection<Task>()
+      tasks: $.collection<Task>(),
+      dashUser: $.collection<DashboardUser>()
 }));
 
 

@@ -36,3 +36,9 @@ export async function deleteTask(id:number): Promise<TaskResult> {
 export async function getAllTasks(): Promise<TaskResult[]> {
   return (await db.tasks.all()).map(value =>toResult(value))
 }
+
+export async function getTaskById(id:number):Promise<TaskResult> {
+    const tasksFound = await db.tasks.query(($)=> $.field("id").eq(id));
+    if(tasksFound.length < 0) return  toResult(null)
+    return toResult<TaskResult>(tasksFound[0])
+}
