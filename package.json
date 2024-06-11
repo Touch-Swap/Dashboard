@@ -28,6 +28,7 @@
     "@refinedev/nextjs-router": "^6.0.0",
     "@refinedev/react-hook-form": "^4.8.14",
     "@refinedev/simple-rest": "^5.0.1",
+    "argon2": "^0.40.3",
     "firebase-admin": "^12.1.1",
     "js-cookie": "^3.0.5",
     "json-server": "^1.0.0-beta.1",
