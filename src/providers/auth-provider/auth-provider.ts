@@ -9,20 +9,21 @@ const mockUsers = [
     email: "johndoe@mail.com",
     roles: ["admin"],
     avatar: "https://www.shutterstock.com/image-vector/user-profile-icon-vector-avatar-600nw-2247726673.jpg",
+    password:"touchswap-app-12"
   },
   {
     name: "Admin2",
     email: "janedoe@mail.com",
     roles: ["editor"],
     avatar: "https://www.shutterstock.com/image-vector/user-profile-icon-vector-avatar-600nw-2247726673.jpg",
+    password:"touchswap-app-12"
   },
 ];
 
 export const authProvider: AuthProvider = {
   login: async ({ email, username, password, remember }) => {
-    // Suppose we actually send a request to the back end here.
-    const user = mockUsers[0];
-
+    let user = mockUsers.find((user)=> user.email === email)
+    if(user?.password !== password) user = undefined
     if (user) {
       Cookies.set("auth", JSON.stringify(user), {
         expires: 30, // 30 days
