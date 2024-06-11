@@ -12,9 +12,8 @@ export async function POST(request: NextRequest) {
 
 export async function GET(request: NextRequest) {
   let _start =  parseInt(request.nextUrl.searchParams.get("_start") || "0")
-  let  _end =  parseInt(request.nextUrl.searchParams.get("_end") || "0")
+  let  _end =  parseInt(request.nextUrl.searchParams.get("_end") || "25")
   const taskes = await getAllTasks()
-  console.log(taskes)
   const foundTaskes =  paginate(taskes,_start , _end)
   return NextResponse.json(foundTaskes, { status: 200 });
 }
