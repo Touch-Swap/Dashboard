@@ -6,10 +6,10 @@
     "node": ">=18.0.0"
   },
   "scripts": {
-    "dev": "cross-env NODE_OPTIONS=--max_old_space_size=4096 refine dev",
+    "dev": "cross-env NODE_OPTIONS=--max_old_space_size=4096 refine dev --port 8000",
     "start:json-server": "json-server --watch db.json --port 4001",
-    "build": "refine build",
-    "start": "refine start",
+    "build": "refine build ",
+    "start": "refine start --port 8000",
     "lint": "next lint",
     "refine": "refine"
   },
